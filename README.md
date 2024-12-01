@@ -8,7 +8,7 @@ This project implements a comprehensive strategy for selecting and optimizing a 
   - Retrieve historical stock data using yfinance
 - Filtering algorithms
   - Remove stocks that aren't denominated in CAD/USD, didn't IPO before the time interval used for analysis, and don't have sufficient monthly volumes or trading history
-- Indicator algorithms that each evaluate stocks based on different financial concepts and compute performance scores
+- Indicator algorithms; each evaluates stocks based on different financial concepts and compute performance scores
   - Market correlation analysis
     - Evaluates the correlation between individual stocks and the market average (TSX and S&P 500)
     - Scores stocks based on their ability to diversify away from market trends
