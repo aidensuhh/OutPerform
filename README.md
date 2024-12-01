@@ -9,5 +9,6 @@ The workflow integrates:
 - Implied Volatility calculations
 - Exponential Moving Average(EMA) calculations
 - Sharpe ratio evaluations
+
 The selected stocks are then weighted to maximize potential returns while adhering to predefined constraints.
 
