@@ -1,6 +1,18 @@
 # Robo-Stock-Portfolio-Advisor
 ## About the Project
-This project implements a comprehensive strategy for selecting and optimizing a portfolio from any list of random stocks. The core objective is to design and implement an algorithm that utilizes different financial concepts to evaluate the performance of each stock and choose 12 stocks with the highest performance to maximize the chance of beating the market, which we defined to be the average between the return of each index for the TSX 60 and the S&P 500 over a period of time. 
+This project implements a comprehensive strategy for selecting and optimizing a portfolio from any list of random stocks. The core objective is to design and implement an algorithm that utilizes different financial concepts to evaluate the performance of each stock and choose 12 stocks with the highest performance to maximize the chance of beating the market, which we defined to be the average between the return of each index for the TSX 60 and the S&P 500 over a period of time. In the end, the program outputs a fully constructed portfolio with allocated weights and generates a CSV file detailing the selected stocks and their respective investments.
+
+## Prerequisites
+Ensure you have the following installed:
+- Python 3.8 or later
+  Install Python from python.org.
+
+    pip (comes with Python)
+    Verify pip is installed by running:
+
+pip --version
+
+The final portfolio and CSV export will be generated in the project directory.
 
 ## Workflow
 - Financial data extraction
@@ -18,3 +30,4 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 - Portfolio generation
   - Select the top 12 stocks based on scores
   - Allocate weights and calculate fees for each stock
+  - Output the final result
