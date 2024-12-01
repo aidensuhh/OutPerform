@@ -4,11 +4,39 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 
 The workflow integrates:
 - Financial data extraction
+  - Read
 - Filtering algorithms
 - Correlation analysis
 - Implied Volatility calculations
 - Exponential Moving Average(EMA) calculations
 - Sharpe ratio evaluations
 
-The selected stocks are then weighted to maximize potential returns while adhering to predefined constraints.
+Extract Data:
 
+    Read ticker symbols from a CSV file.
+    Retrieve historical stock data using yfinance.
+
+Filter Stocks:
+
+    Remove stocks with insufficient trading history or volume.
+
+Compute Scores:
+
+    Use algorithms to calculate scores based on:
+        Market correlation.
+        Implied volatility.
+        Technical indicators.
+        Sharpe ratios.
+
+Combine Scores:
+
+    Apply weighted indicators to rank stocks.
+
+Build the Portfolio:
+
+    Select the top 12 stocks based on scores.
+    Allocate weights and calculate fees for each stock.
+
+Output Results:
+
+    Generate a CSV file containing the final portfolio of stocks and their respective weights.
