@@ -35,42 +35,42 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 
 ## Libraries Used
 
-    - IPython.display
+    IPython.display
   For interactive output and LaTeX rendering.
 
 
   
-    - pandas
+    pandas
   For data manipulation and analysis.
 
 
   
-    - numpy
+    numpy
   For numerical calculations.
 
 
   
-    - numpy_financial
+    numpy_financial
   For financial computations.
 
 
   
-    - yfinance
+    yfinance
   For retrieving stock, options, and exchange rate data.
 
 
   
-    - matplotlib.pyplot
+    matplotlib.pyplot
   For visualizing stock performance and correlations.
 
 
   
-    - random
+    random
   For generating random portfolio weights.
 
 
   
-    - datetime
+    datetime
   For date and time manipulation.
     
 ## Prerequisites
