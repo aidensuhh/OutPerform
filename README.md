@@ -7,10 +7,12 @@ Ensure you have the following installed:
 - Python 3.8 or later
   Install Python from python.org.
 - pip (comes with Python)
+
   Verify pip is installed by running:
 
       pip --version
 - Required Libraries
+
   Install the required Python packages:
 
       pip install pandas numpy numpy-financial yfinance matplotlib ipython
