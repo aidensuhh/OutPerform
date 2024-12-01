@@ -6,8 +6,10 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 - Financial data extraction
   - Read ticker symbols from a CSV file
   - Retrieve historical stock data using yfinance
+    
 - Filtering algorithms
   - Remove stocks that aren't denominated in CAD/USD, didn't IPO before the time interval used for analysis, and don't have sufficient monthly volumes or trading history
+    
 - Indicator algorithms; each evaluates stocks based on different financial concepts and compute performance scores
   - Market correlation analysis
     - Evaluates the correlation between individual stocks and the market average (TSX and S&P 500)
