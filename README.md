@@ -4,17 +4,16 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 
 The workflow integrates:
 - Financial data extraction
-  - Read
+  - Read ticker symbols from a CSV file
+  - Retrieve historical stock data using yfinance
 - Filtering algorithms
+  - Remove stocks that aren't denominated in CAD/USD, didn't IPO before the time interval used for analysis, don't have sufficient monthly volumes or trading days
 - Correlation analysis
 - Implied Volatility calculations
 - Exponential Moving Average(EMA) calculations
 - Sharpe ratio evaluations
 
-Extract Data:
 
-    Read ticker symbols from a CSV file.
-    Retrieve historical stock data using yfinance.
 
 Filter Stocks:
 
