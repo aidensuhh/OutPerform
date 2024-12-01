@@ -7,35 +7,14 @@ The workflow integrates:
   - Read ticker symbols from a CSV file
   - Retrieve historical stock data using yfinance
 - Filtering algorithms
-  - Remove stocks that aren't denominated in CAD/USD, didn't IPO before the time interval used for analysis, don't have sufficient monthly volumes or trading days
-- Correlation analysis
-- Implied Volatility calculations
-- Exponential Moving Average(EMA) calculations
-- Sharpe ratio evaluations
-
-
-
-Filter Stocks:
-
-    Remove stocks with insufficient trading history or volume.
-
-Compute Scores:
-
-    Use algorithms to calculate scores based on:
-        Market correlation.
-        Implied volatility.
-        Technical indicators.
-        Sharpe ratios.
-
-Combine Scores:
-
-    Apply weighted indicators to rank stocks.
-
-Build the Portfolio:
-
-    Select the top 12 stocks based on scores.
-    Allocate weights and calculate fees for each stock.
-
-Output Results:
-
-    Generate a CSV file containing the final portfolio of stocks and their respective weights.
+  - Remove stocks that aren't denominated in CAD/USD, didn't IPO before the time interval used for analysis, and don't have sufficient monthly volumes or trading history
+- Indicator algorithms that each evaluate stocks based on different financial concepts and compute performance scores
+  - Market correlation analysis
+  - Implied Volatility(IV) calculations
+  - Exponentional Moving Average(EMA) calculations
+  - Sharpe ratios analysis
+- Overall evaluation
+  - Apply weighted indicators to rank stocks
+- Portfolio generation
+  - Select the top 12 stocks based on scores
+  - Allocate weights and calculate fees for each stock
