@@ -38,29 +38,36 @@ This project implements a comprehensive strategy for selecting and optimizing a 
     - IPython.display
   For interactive output and LaTeX rendering.
 
+
   
     - pandas
   For data manipulation and analysis.
+
 
   
     - numpy
   For numerical calculations.
 
+
   
     - numpy_financial
   For financial computations.
+
 
   
     - yfinance
   For retrieving stock, options, and exchange rate data.
 
+
   
     - matplotlib.pyplot
   For visualizing stock performance and correlations.
 
+
   
     - random
   For generating random portfolio weights.
+
 
   
     - datetime
