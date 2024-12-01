@@ -7,7 +7,7 @@ The workflow integrates:
 - Filtering algorithms
 - Correlation analysis
 - Implied Volatility calculations
-        5. Exponential Moving Average(EMA) calculations
-        6. Sharpe ratio evaluations
+- Exponential Moving Average(EMA) calculations
+- Sharpe ratio evaluations
 The selected stocks are then weighted to maximize potential returns while adhering to predefined constraints.
 
