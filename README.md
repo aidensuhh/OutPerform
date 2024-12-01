@@ -32,7 +32,14 @@ This project implements a comprehensive strategy for selecting and optimizing a 
   - Select the top 12 stocks based on scores
   - Allocate weights and calculate fees for each stock
   - Output the final result
-    
+
+## Example Outputs
+- Portfolio Summary:
+  - List of 12 selected stocks with weights and investment value
+  - Total portfolio value and weight
+- CSV Export:
+  - A CSV file containing the tickers and shares for the final portfolio.
+
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3.8 or later
