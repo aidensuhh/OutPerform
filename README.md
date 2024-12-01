@@ -30,8 +30,6 @@ This project implements a comprehensive strategy for selecting and optimizing a 
   - Output the final result
 
 ## Libraries Used
-Libraries Used
-
     - IPython.display
   For interactive output and LaTeX rendering.
   
