@@ -24,8 +24,10 @@ This project implements a comprehensive strategy for selecting and optimizing a 
   - Sharpe ratios analysis
     - Simulates 1,000,000 portfolios using random weight distributions
     - Identifies the best portfolio and computes individual stock scores based on Sharpe ratios
+      
 - Overall evaluation
   - Apply weighted indicators to rank stocks
+    
 - Portfolio generation
   - Select the top 12 stocks based on scores
   - Allocate weights and calculate fees for each stock
