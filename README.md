@@ -10,8 +10,10 @@ Ensure you have the following installed:
   Verify pip is installed by running:
 
       pip --version
+- Required Libraries
+  Install the required Python packages:
 
-The final portfolio and CSV export will be generated in the project directory.
+      pip install pandas numpy numpy-financial yfinance matplotlib ipython
 
 ## Workflow
 - Financial data extraction
