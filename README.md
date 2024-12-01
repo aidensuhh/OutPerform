@@ -10,9 +10,18 @@ This project implements a comprehensive strategy for selecting and optimizing a 
   - Remove stocks that aren't denominated in CAD/USD, didn't IPO before the time interval used for analysis, and don't have sufficient monthly volumes or trading history
 - Indicator algorithms that each evaluate stocks based on different financial concepts and compute performance scores
   - Market correlation analysis
+    - Evaluates the correlation between individual stocks and the market average (TSX and S&P 500)
+    - Scores stocks based on their ability to diversify away from market trends
   - Implied Volatility(IV) calculations
+    - Calculates implied volatility for stock options
+    - Scores stocks based on their options data for optimal strike prices
   - Exponentional Moving Average(EMA) calculations
+    - Utilizes EMA indicators (12-day, 26-day, and 200-day) to assess stock price trends
+    - Computes the MACD (Moving Average Convergence Divergence) to evaluate momentum and trend reversals
+    - Scores stocks based on recent performance, with emphasis on those showing positive momentum and price stability over the last 10 trading days
   - Sharpe ratios analysis
+    - Simulates 1,000,000 portfolios using random weight distributions
+    - Identifies the best portfolio and computes individual stock scores based on Sharpe ratios
 - Overall evaluation
   - Apply weighted indicators to rank stocks
 - Portfolio generation
