@@ -6,11 +6,10 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 Ensure you have the following installed:
 - Python 3.8 or later
   Install Python from python.org.
+- pip (comes with Python)
+  Verify pip is installed by running:
 
-    pip (comes with Python)
-    Verify pip is installed by running:
-
-pip --version
+      pip --version
 
 The final portfolio and CSV export will be generated in the project directory.
 
