@@ -17,7 +17,7 @@ This project implements a comprehensive strategy for selecting and optimizing a 
   - Implied Volatility(IV) calculations
     - Calculates implied volatility for stock options
     - Scores stocks based on their options data for optimal strike prices
-  - Exponentional Moving Average(EMA) calculations
+  - Exponential Moving Average(EMA) calculations
     - Utilizes EMA indicators (12-day, 26-day, and 200-day) to assess stock price trends
     - Computes the MACD (Moving Average Convergence Divergence) to evaluate momentum and trend reversals
     - Scores stocks based on recent performance, with emphasis on those showing positive momentum and price stability over the last 10 trading days
