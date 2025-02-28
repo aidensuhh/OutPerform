@@ -40,17 +40,30 @@ This project implements a comprehensive strategy for selecting and optimizing a 
 - CSV Export:
   - A CSV file containing the tickers and shares for the final portfolio.
 
-## Prerequisites
+## Run Our Program
 Ensure you have the following installed:
 - Python 3.8 or later
-  Install Python from python.org.
 - pip (comes with Python)
 
-  Verify pip is installed by running:
+<br>1. Create a virtual environment:
+  ``` 
+  python -m venv .venv
+  ```
 
-      pip --version
-- Required Libraries
-
-  Install the required Python packages:
-
-      pip install pandas numpy numpy-financial yfinance matplotlib ipython
+<br>2. Activate the virtual environment:
+- On Windows:
+  ``` 
+  .venv\Scripts\activate
+  ```
+- On macOS/Linux:
+  ```
+  source .venv/bin/activate
+  ```
+  
+<br>3. Install the packages from requirements.txt:
+   ```
+   pip install -r requirements.txt
+   ```
+   
+<br>4. Test the application:
+- Run portfolio_advisor.py to use our program!
